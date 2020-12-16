@@ -1,0 +1,125 @@
+/*
+ * This is the CSS stylesheet for the demo people application
+
+
+ .container {
+    padding: 10px;
+}
+
+.editor {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid darkgrey;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.resource_input{
+    width: 450px;
+}
+
+.resource_interconnections{
+    width: 450px;
+}
+
+button {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+div.resources {
+    margin: 10px 30px 10px 30px;
+    border: 2px solid darkgrey;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resources table caption {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid darkgrey;
+    background-color: antiquewhite;
+}
+
+.resources table thead {
+    padding: 10px 0 10px 0;
+}
+
+th:not(:last-child), td:not(:last-child) {
+    border-right: 2px solid darkgrey;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+td.name {
+    text-align: center;
+    width: 175px;
+}
+
+td.type {
+    text-align: center;
+    width: 280px;
+}
+
+tbody td.type {
+    width: 280px;
+}
+
+/*tbody td.global {
+    cursor: pointer;
+    height: 33px;
+}
+
+thead tr {
+    height: 33px;
+    border-bottom: 2px solid darkgrey;
+}
+
+tbody tr:not(:last-child){
+    border-bottom: 2px solid darkgrey;
+}
+
+tbody tr:hover {
+    background-color: powderblue;
+}
+
+.error {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    background-color: #fbb;
+    visibility: hidden;
+}
+*/
+.fa-button-no-resource {
+    pointer-events:none;
+}
+
+
+.notification {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+   border: 1px solid lightgrey;
+   border-radius: 3px;
+   background-color: #c1ffbb;
+   visibility: hidden;
+}
